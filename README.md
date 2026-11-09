@@ -40,6 +40,8 @@ This needs Ollama running with the model pulled (see below), or a backend set in
 full Synthea CSVs. It is meant for your own machine, so don't expose it publicly. Answers vary, and
 the model can be wrong.
 
+[TESTING.md](TESTING.md) has sample prompts to try, including traps the app should flag.
+
 ## Regenerate the agent results (optional)
 
 This is only for re-running the comparison. It replaces `data/agent_runs.json` and
