@@ -4,11 +4,9 @@ How many diabetics are in a dataset? It depends on decisions nobody writes down.
 those decisions into explicit judgments: build a definition, watch the count change live, and see
 exactly which rows qualified each patient.
 
-It follows up [Counting Diabetics](LINK-TO-FIRST-ARTICLE), which counted the same synthetic
+It follows up [Counting Diabetics](https://medium.com/@maheksota56/how-many-diabetics-are-in-this-dataset-somewhere-between-41-and-474-816cb283baed) and [its implementation] (https://github.com/mahek-sota/counting-diabetes), which counted the same synthetic
 population five defensible ways and got answers from 41 to 474. It also compares a naive LLM agent
 with a context-aware one on the question "How many diabetics are in this dataset?"
-
-<!-- Screenshots: definition builder, patient evidence panel, agent comparison -->
 
 ## Run the app
 
