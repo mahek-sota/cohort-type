@@ -1,0 +1,19 @@
+{
+  "runID": "3391787a-a44a-4db1-ab79-298c119e2626",
+  "seed": 1789766283574,
+  "clinicianSeed": 1789766283574,
+  "referenceTime": "20260918",
+  "endTime": "20260918",
+  "version": "d9d07a6\n",
+  "patientCount": 1153,
+  "providerCount": 1377,
+  "payerCount": 9,
+  "javaVersion": "17.0.8",
+  "generate.thread_pool_size": -1,
+  "generatorThreads": 15,
+  "runStartTime": "2026-09-18T21:18:03Z",
+  "runTimeInSeconds": 63,
+  "exporter.years_of_history": "10",
+  "state": "Mississippi",
+  "modules": "*"
+}

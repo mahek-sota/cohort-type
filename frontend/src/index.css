@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/source-serif-4";
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4 Variable", Georgia, serif;
+
+  --color-paper: #f7f4ee;
+  --color-card: #fffdf9;
+  --color-ink: #14262e;
+  --color-ink-raised: #1f3540;
+  --color-ink-soft: #4a5c64;
+  --color-ink-faint: #64747b;
+  --color-line: #e4dfd5;
+  --color-accent: #0e6f66;
+  --color-accent-soft: #cfe7e2;
+  --color-accent-wash: #edf6f3;
+  --color-amber: #f2b33d;
+  --color-on-ink: #f7f4ee;
+  --color-on-ink-soft: #b7c5ca;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}

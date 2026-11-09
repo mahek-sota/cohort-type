@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Local state
+.env
+.env.local
+*.duckdb
+*.duckdb.wal
+
+# Synthea data is large and regenerated or copied locally. checksums.sha256,
+# generation_metadata.json and data/README.md stay tracked.
+data/synthea/csv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
